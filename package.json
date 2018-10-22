@@ -1,0 +1,21 @@
+{
+  "name": "pack.js",
+  "version": "1.0.0",
+  "description": "an easy bundle for js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/bundle.test.js"
+  },
+  "keywords": [
+    "pack",
+    "js"
+  ],
+  "author": "hqiwen",
+  "license": "MIT",
+  "dependencies": {
+    "detective": "^5.1.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "resolve": "^1.8.1"
+  }
+}
