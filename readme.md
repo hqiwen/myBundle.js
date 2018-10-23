@@ -22,3 +22,13 @@ const requires = detective(source);
 ### pack()
 
   传入一个Modules[]数组，通过工厂方式构造一个require()函数，把文件模块的ID和依赖暴露出来，方便require的调用，最后调用require(0),调用跟模块，返回一个立即执行的函数
+
+## 用法
+
+```js
+---npm install---
+
+const pack = require("../bundle");
+const fileWebpack = pack(path);
+```
+
